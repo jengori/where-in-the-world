@@ -86,6 +86,13 @@ function fadeOut(element, speed) {
         }, speed);
 }
 
+// function to play a sound effect
+
+function playSound(sound) {
+    var soundEffect = new Audio("sounds/" + sound + ".mp3");
+    soundEffect.play();
+}
+
 // function showQuestion displays the next question in the quiz
 
 function showQuestion() {
@@ -138,12 +145,17 @@ function showResult() {
     // if the correct answer was chosen:
     if (this.innerHTML == questions[currentQuestionNumber-1].country){
         rightOrWrong = `You got it right! <i class="fa-solid fa-face-smile"></i>`;
+        // increment score by 1
         score++;
+        // play the "right" sound effect
+        setTimeout(function(){playSound("right")}, 500)
         }
 
      // if the wrong answer was chosen:
     else if (questions[currentQuestionNumber-1].options.includes(this.innerHTML)){
         rightOrWrong = `You got it wrong! <i class="fa-solid fa-face-frown"></i>`
+        // play the "wrong" sound effect
+        setTimeout(function(){playSound("wrong")}, 500)
     }
 
     // if the time ran out:
@@ -182,6 +194,10 @@ function nextQuestion() {
         }
     else {
         pageContent = '<div id="title-container"><h1 id="your-final-score">Your final score is ' + score + ' out of ' + numQuestionsInQuiz + '!</h1><h2>Thank you for playing<br><span id="final-page-title">Where in the World?</h2><button id="play-again">Play again!</button></div>';
-        setTimeout(showQuestion, 500);   
+        setTimeout(showQuestion, 500);
+        
+        // play "applause" sound effect if player has achieved full marks in the quiz
+        if (score==numQuestionsInQuiz){
+        setTimeout(function(){playSound("applause")}, 500)};   
     }
 }
