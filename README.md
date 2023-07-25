@@ -1,6 +1,6 @@
 # Where in the World?
 
-https://jengori.github.io/where-in-the-world
+**Play the game at:** https://jengori.github.io/where-in-the-world
 
 This is a group project completed as part of the **JavaScript Kickstarter** course run by [Code First Girls](https://codefirstgirls.com).
 
