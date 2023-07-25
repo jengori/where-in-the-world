@@ -31,7 +31,7 @@ Features of the quiz:
 
 ### Screenshot
 
-![](screenshot.png)
+<img src="screenshot.png" width=300>
 
 ### Links
 
