@@ -4,7 +4,7 @@ This is a group project completed as part of the **JavaScript Kickstarter** cour
 
 ### The Brief
 
-To work in a group to create a web app meeting the following criteria.
+To work in a group to create a web app meeting the following criteria:
 
 Must haves:
 
