@@ -1,4 +1,4 @@
-# Where in the World?
+# Where in the World? https://jengori.github.io/where-in-the-world
 
 This is a group project completed as part of the **JavaScript Kickstarter** course run by [Code First Girls](https://codefirstgirls.com).
 
