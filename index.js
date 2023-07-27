@@ -193,7 +193,7 @@ function nextQuestion() {
         setTimeout(startTimer, 500);
         }
     else {
-        pageContent = '<div id="title-container"><h1 id="your-final-score">Your final score is ' + score + ' out of ' + numQuestionsInQuiz + '!</h1><h2>Thank you for playing<br><span id="final-page-title">Where in the World?</h2><button id="play-again">Play again!</button></div>';
+        pageContent = '<div id="title-container"><h1 id="your-final-score">Your final score is ' + score + ' out of ' + numQuestionsInQuiz + '!</h1><h2>Thank you for playing<br><span id="final-page-title">Where in the world?</h2><button id="play-again">Play again!</button></div>';
         setTimeout(showQuestion, 500);
         
         // play "applause" sound effect if player has achieved full marks in the quiz
