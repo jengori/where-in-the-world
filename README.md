@@ -1,5 +1,7 @@
 <img src="images/logo.jpg">
 
+![html badge](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) ![css badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) ![js badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 This is a project completed as part of the [Code First Girls](https://codefirstgirls.com) **JavaScript Kickstarter** course.
 
 **Where in the World?** is a quiz app built using vanilla JavaScript, CSS and HTML.
