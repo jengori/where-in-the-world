@@ -1,6 +1,6 @@
 # Where in the World?
 
-
+<img src="images/logo.jpg">
 
 This is a project completed as part of the [Code First Girls](https://codefirstgirls.com) **JavaScript Kickstarter** course.
 
