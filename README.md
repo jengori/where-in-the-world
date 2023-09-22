@@ -2,25 +2,7 @@
 
 **Play the game at:** https://jengori.github.io/where-in-the-world
 
-This is a group project completed as part of the **JavaScript Kickstarter** course run by [Code First Girls](https://codefirstgirls.com).
-
-## The Brief
-
-To work in a group to create a web app meeting the following criteria:
-
-Must haves:
-
-- Get input from the user on a web page
-- Make changes to the HTML and/or CSS using JavaScript and use an event to trigger a change to a web page
-
-Nice to haves: 
-
-- Add HTML elements to a web page using the DOM
-- Remove HTML elements from a web page using the DOM
-- Research and use other DOM events such as onmouseover + Use arrays, loops and/or conditional logic in JavaScript
- 
-
-## The Project - Where in the World? - A JavaScript Quiz App
+This is a project completed as part of the Code First Girls](https://codefirstgirls.com) **JavaScript Kickstarter** course.
 
 **Where in the World?** is a quiz app written in vanilla JavaScript, CSS and HTML.
 
