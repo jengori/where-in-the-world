@@ -4,7 +4,7 @@
 
 This is a project completed as part of the [Code First Girls](https://codefirstgirls.com) **JavaScript Kickstarter** course.
 
-**Where in the World?** is a quiz app build using vanilla JavaScript, CSS and HTML.
+**Where in the World?** is a quiz app built using vanilla JavaScript, CSS and HTML.
 
 The player is presented with a series of 10 questions each consisting of an image of a world landmark, with the player being required to guess which country the landmark is in from four possible answers.
 
