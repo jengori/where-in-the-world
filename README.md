@@ -1,6 +1,6 @@
 # Where in the World?
 
-**Play the game at:** https://jengori.github.io/where-in-the-world
+
 
 This is a project completed as part of the [Code First Girls](https://codefirstgirls.com) **JavaScript Kickstarter** course.
 
@@ -12,6 +12,8 @@ Features of the quiz:
 - a timer which allows 10 seconds for the player to answer each question
 - sound effects which vary depending on whether the question is answered correctly or incorrectly
 - a final page which displays the player's score out of 10, with a round of applause sound effect if all 10 questions were answered correctly
+
+# Play the quiz [here](https://jengori.github.io/where-in-the-world)
 
 ## Screenshots
 
